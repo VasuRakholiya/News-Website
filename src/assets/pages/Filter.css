@@ -1,0 +1,94 @@
+.filter-page {
+  background-color: #0e0e0e;
+  color: #f5f5f5;
+  padding: 40px 30px;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.filter-page h1 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 2px solid #222;
+  padding-bottom: 10px;
+}
+
+.category-section {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.category-header h2 {
+  color: #1ec5ff;
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.category-header button {
+  background: #1ec5ff;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.category-header button:hover {
+  background: #0e93c7;
+  transform: translateY(-2px);
+}
+
+/* horizontal scroll area */
+.scroll-row {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0 20px;
+}
+
+.scroll-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-row::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+.scroll-row::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+/* card look inside scroll */
+.scroll-row .card {
+  flex: 0 0 270px;
+  background: #181818;
+  color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.scroll-row .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.6);
+}
+
+.scroll-row .card img {
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}

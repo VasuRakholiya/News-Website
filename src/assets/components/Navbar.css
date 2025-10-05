@@ -1,0 +1,19 @@
+.navButton{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #1b1b1b;
+}
+
+.button{
+  background-color: #404741; 
+  border: 3px solid #000000;
+  border-radius: 25%;
+  box-shadow: 0 8px 16px 0 rgba(201, 200, 200, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  padding: 17px 20px;
+  text-align: center;;
+  font-size: 16px;
+  margin: 2px;
+  cursor: pointer;
+}
